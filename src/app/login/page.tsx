@@ -87,6 +87,12 @@ const page = () => {
         {buttonDisabled ? "no login" : "login"}
       </button>
       <Link
+        href="/forgotpassword"
+        className=" p-2 border border-red-500 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-red-500"
+      >
+        Forgot password
+      </Link>
+      <Link
         href="/signup"
         className=" p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600"
       >
